@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Beadwork Store - Shop</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="scripts/cart.js" defer></script>
+</head>
+<body>
+<header>
+  <img src="assets/logo.png" alt="Logo" class="logo">
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="cart.html">Cart</a>
+  </nav>
+</header>
+
+<main>
+  <h2>Shop</h2>
+  <div class="products">
+    <div class="product">
+      <img src="assets/product1.jpg" alt="Beaded Necklace">
+      <h3>Beaded Necklace</h3>
+      <p>$25</p>
+      <button onclick="addToCart('Beaded Necklace', 25)">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="assets/product2.jpg" alt="Bracelet Set">
+      <h3>Bracelet Set</h3>
+      <p>$15</p>
+      <button onclick="addToCart('Bracelet Set', 15)">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="assets/product3.jpg" alt="Beaded Earrings">
+      <h3>Beaded Earrings</h3>
+      <p>$10</p>
+      <button onclick="addToCart('Beaded Earrings', 10)">Add to Cart</button>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <p>© 2025 Beadwork Store</p>
+</footer>
+</body>
+</html>
